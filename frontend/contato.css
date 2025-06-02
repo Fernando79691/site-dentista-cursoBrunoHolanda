@@ -1,0 +1,112 @@
+.contato {
+    display: flex;
+    justify-content: space-between;
+    margin: 120px;
+}
+
+.contato h2 {
+    margin-bottom: 20px;
+}
+
+.contato h3 {
+    color: #666666;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 14px 0 14px 0;
+}
+
+.contato p {
+    color: #666666;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario label {
+    color: #666666;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.formulario fieldset {
+    color: #666666;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.formulario legend {
+    margin-bottom: 16px;
+}
+
+.formulario__input {
+    height: 20px;
+    border-radius: 16px;
+    border: 1px solid #666666;
+    padding: 16px;
+
+}
+
+.formulario select {
+    height: 40px;
+    font-size: 20px;
+    width: 100px;
+    border-radius: 16px;
+}
+
+.mapa {
+    text-align: center;
+    margin: 0 50px;
+}
+
+.mapa h2 {
+    margin-bottom: 30px;
+
+}
+
+@media (max-width: 768px) {
+
+    .contato {
+        display: block;
+        margin: 20px;
+    }
+
+    .contato h2 {
+        margin-bottom: 10px;
+    }
+
+    .contato h3 {
+        font-size: 20px;
+        margin: 20px 0;
+    }
+
+    .formulario label {
+        font-size: 20px;
+        margin: 20px 0;
+    }
+
+    .formulario fieldset {
+        font-size: 20px;
+        margin: 20px 0;
+    }
+
+    .formulario legend {
+        margin-bottom: 25px;
+    }
+
+    .formulario__input {
+        height: auto;
+
+    }
+
+    .formulario select {
+        height: 40px;
+        font-size: 20px;
+        width: 100px;
+        border-radius: 16px;
+    }
+
+}
